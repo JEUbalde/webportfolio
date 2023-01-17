@@ -12,41 +12,27 @@
 	</head>
 	<body>
 		<!-- Navbar Start -->
-		<nav class="navbar navbar-expand-lg bg-light ">
-		  <a class="navbar-brand text-orange text-bold" href="#">Ed U.</a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-		    <span class="navbar-toggler-icon"></span>
-		  </button>
-		  <div class="collapse navbar-collapse" id="navbarNav">
-		    <ul class="navbar-nav ml-auto">
-		      <li class="nav-item active">
-		        <a class="nav-link text-dark" href="#">Home <span class="sr-only">(current)</span></a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link text-dark" href="#projects">Projects</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link text-dark" href="#tools">Tools</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link text-dark" href="#contact">Contact</a>
-		      </li>
-		    </ul>
-		  </div>
+		<nav class="container-fluid bg-light text-dark d-flex flex-sm-row d-md-flex">
+		    <a class="m-2 text-orange text-bold" href="#">EdU.</a>
+		    <div class="d-flex flex-sm-row d-md-flex ml-auto">
+		        <a class="m-2 text-dark" href="#projects">Projects</a>
+		        <a class="m-2 text-dark" href="#tools">Tools</a>
+		        <a class="m-2 text-dark" href="#contact">Contact</a>
+		    </div>
 		</nav>
 		<!-- Navbar End -->
 
 		<!-- Top Section Start -->
 		<section class="container-fluid align-items-center mt-5 py-5">
 			<div class="row">
-				<div class="col-md-5 offset-md-1 p-5 text-dark">
-					<h2 class="h2 text-bold">Need Creative Help? I can help you!</h2>
+				<div class="col-md-5 offset-md-1 p-5 text-dark order-2 order-md-1">
+					<h2 class="h2 text-bold pb-2">Need Creative Help? I can help you!</h2>
 					<p class="p-intro">
 						Hi! I'm Edward Ubalde! A graphic designer and web developer. If you're in need of a graphic designer/ web developer, don't hesitate to reach out~
 					</p>
 					<button class="button-orange rounded-pill text-white px-4 py-2 text-bold">Hire Me</button>
 				</div>
-				<div class="col-md-5">
+				<div class="col-md-5 order-1 order-md-2">
 					<img src="./images/intro.svg" alt="illustration-man-coding" class="img-fluid">
 				</div>
 			</div>
@@ -54,11 +40,11 @@
 
 		<!-- Projects Section Start -->
 		<section class="container-fluid mt-5 py-3 bg-orange" id="projects">
-			<h4 class="h4 text-bold text-center my-3">Projects</h4>
+			<h2 class="h2 text-bold text-center my-3">Projects</h2>
 			<div class="container-fluid">
 				<div class="d-md-flex justify-content-md-center">
 					<!-- HTML Card -->
-					<div class="col-md-3 bg-white rounded pb-2 px-3 mx-3">
+					<div class="col-md-3 bg-white rounded pb-md-2 px-md-3 mx-md-3 mb-md-3">
 						<img src="./images/web-development.svg">
 						<h5 class="h5 text-bold text-center">Web Development</h5>
 						<p class="p-content text-justify">
@@ -70,7 +56,7 @@
 					</div>
 
 					<!-- Graphic Design Card -->
-					<div class="col-md-3 bg-white rounded pb-2 px-3 mx-3">
+					<div class="col-md-3 bg-white rounded pb-md-2 px-md-3 mx-md-3 mb-md-3">
 						<img src="./images/graphic-design.svg">
 						<h5 class="h5 text-bold text-center">Graphic Design</h5>
 						<p class="p-content text-justify">
@@ -82,7 +68,7 @@
 					</div>
 
 					<!-- UI Card -->
-					<div class="col-md-3 bg-white rounded pb-2 px-3 mx-3">
+					<div class="col-md-3 bg-white rounded pb-md-2 px-md-3 mx-md-3 mb-md-3">
 						<img src="./images/ui-design.svg">
 						<h5 class="h5 text-bold text-center">UI Design</h5>
 						<p class="p-content text-justify">
@@ -99,36 +85,28 @@
 
 		<!-- Tools Section Start -->
 		<section class="container-fluid my-5" id="tools">
-			<h2 class="h2 text-center text-bold mb-3">Tools I Use</h2>
-			<section class="d-flex d-md-block justify-content-center">
+			<h2 class="h2 h2-sm text-center text-bold mb-3">Tools I Use</h2>
 
-					<h4 class="h4 d-flex justify-content-center">Graphic Design</h4>
-					<div class="d-flex flex-column flex-md-row justify-content-md-center mb-3">
-						<img src="./images/logo-photoshop.png" class="icon m-3">
-						<img src="./images/logo-illustrator.png" class="icon m-3">
-						<img src="./images/logo-premiere-pro.png" class="icon m-3">
-						<img src="./images/logo-figma.png" class="icon m-3">
-					</div>
-
-					<h4 class="h4 d-flex justify-content-center ">Web Development and UI</h4>
-					<div class="d-flex flex-column flex-md-row justify-content-md-center">
-						<img src="./images/logo-html5.png" class="icon m-3">
-						<img src="./images/logo-css3.png" class="icon m-3">
-						<img src="./images/logo-bootstrap.png" class="icon m-3">
-						<img src="./images/logo-javascript.png" class="icon m-3">
-						<img src="./images/logo-mongodb.png" class="icon m-3">
-						<img src="./images/logo-expressjs.png" class="icon m-3">
-						<img src="./images/logo-react.png" class="icon m-3">
-						<img src="./images/logo-nodejs.png" class="icon m-3">
-					</div>
-			</section>
+			<div class="d-flex d-md-block justify-content-center">
+			    <div class="d-flex flex-column flex-md-row justify-content-md-center">
+			        <img src="images/logo-photoshop.png" class="icon m-md-3 mb-1"/>
+			        <img src="images/logo-illustrator.png" class="icon m-md-3 mb-1"/>
+			        <img src="images/logo-premiere-pro.png" class="icon m-md-3 mb-1"/>
+			        <img src="images/logo-figma.png" class="icon m-md-3 mb-1"/>
+			    </div>
+			    <div class="d-flex flex-column flex-md-row justify-content-md-center mt-3">
+			        <img src="images/logo-html5.png"/>
+			        <img src="images/logo-css3.png"/>
+			        <img src="images/logo-javascript.png"/>
+			        <img src="images/logo-bootstrap.png"/>
+			    </div>
 		</section>
 		<!-- Tools Section End -->
 
 		<!-- Contact Section Start-->
 		<div class="container-fluid bg-orange" id="contact">
 			<div class="min-vh-100 p-5">
-				<h2 class="h2 text-bold text-light text-center">Contact Me</h2>
+				<h2 class="h2 h2-sm text-bold text-light text-center">Contact Me</h2>
 
 				<div class="row mt-5">
 					<form class="col-12 offset-md-2 col-md-8 offset-xl-4 col-xl-4 bg-darkbrown p-3 rounded">
@@ -164,13 +142,40 @@
 					  </div>
 
 					  <button type="button" class="btn bg-orange text-white text-bold" data-toggle="modal" data-target="#exampleModal">
-					  	Send Email
+					  	Submit
 					  </button>
 
 					</form>
 				</div>
 			</div>
 		</div>
+
+		<!-- Modal Start -->
+		<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="exampleModalLabel">Thank you for contacting us!</h5>
+		        <!-- Close button -->
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <!-- Message -->
+		      <div class="modal-body">
+		        Message Successfully Sent!
+		      </div>
+		      <!-- Modal Footer -->
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		        <button type="button" class="btn btn-primary">Save changes</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<!-- Modal End -->
+
+		</section>
 		<!-- Contact Section End-->
 
 		<!-- Bootstrap Script -->

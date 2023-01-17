@@ -23,8 +23,9 @@ body {
 }
 
 .p-intro{
-	font-size: 1.65rem;
+	font-size: 1.25rem;
 }
+
 
 .button-orange {
 	background-color: #F88B14;
@@ -36,11 +37,11 @@ body {
 }
 
 .h4 {
-	font-size: 2rem;
+	font-size: 1.5rem;
 }
 
 .h5 {
-	font-size: 1.75rem;
+	font-size: 1.50rem;
 }
 
 .p-content {
