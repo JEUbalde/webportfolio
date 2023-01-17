@@ -1,0 +1,48 @@
+html {
+	font-size: 1rem;
+}
+
+body {
+	font-family: 'Nunito', sans-serif;
+}
+
+.text-orange {
+	color: #F88B14;
+}
+
+.text-bold {
+	font-weight: bold;
+}
+
+.text-dark{
+	color: #402E32;
+}
+
+.h2 {
+	font-size: 3.5rem;
+}
+
+.p-intro{
+	font-size: 1.65rem;
+}
+
+.button-orange {
+	background-color: #F88B14;
+	border: none;
+}
+
+.bg-orange{
+	background-color: #F88B14;	
+}
+
+.h4 {
+	font-size: 2rem;
+}
+
+.h5 {
+	font-size: 1.75rem;
+}
+
+.p-content {
+	font-size: 1.25rem;
+}
