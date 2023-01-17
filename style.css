@@ -6,8 +6,16 @@ body {
 	font-family: 'Nunito', sans-serif;
 }
 
+.bg-cream{
+	background-color: #FFF7EB;
+}
+
 .text-orange {
 	color: #F88B14;
+}
+
+.text-black {
+	font-weight: 900;
 }
 
 .text-bold {
@@ -19,7 +27,7 @@ body {
 }
 
 .h2 {
-	font-size: 3.5rem;
+	font-size: 2.75rem;
 }
 
 .p-intro{
