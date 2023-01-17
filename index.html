@@ -12,7 +12,7 @@
 	</head>
 	<body>
 		<!-- Navbar Start -->
-		<nav class="navbar navbar-expand-lg bg-light">
+		<nav class="navbar navbar-expand-lg bg-light ">
 		  <a class="navbar-brand text-orange text-bold" href="#">Ed U.</a>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
@@ -23,13 +23,13 @@
 		        <a class="nav-link text-dark" href="#">Home <span class="sr-only">(current)</span></a>
 		      </li>
 		      <li class="nav-item">
-		        <a class="nav-link text-dark" href="#">Projects</a>
+		        <a class="nav-link text-dark" href="#projects">Projects</a>
 		      </li>
 		      <li class="nav-item">
-		        <a class="nav-link text-dark" href="#">Tools</a>
+		        <a class="nav-link text-dark" href="#tools">Tools</a>
 		      </li>
 		      <li class="nav-item">
-		        <a class="nav-link text-dark" href="#">Contact</a>
+		        <a class="nav-link text-dark" href="#contact">Contact</a>
 		      </li>
 		    </ul>
 		  </div>
@@ -37,7 +37,7 @@
 		<!-- Navbar End -->
 
 		<!-- Top Section Start -->
-		<section class="container-fluid align-items-center mt-5">
+		<section class="container-fluid align-items-center mt-5 py-5">
 			<div class="row">
 				<div class="col-md-5 offset-md-1 p-5 text-dark">
 					<h2 class="h2 text-bold">Need Creative Help? I can help you!</h2>
@@ -53,8 +53,8 @@
 		</section>
 
 		<!-- Projects Section Start -->
-		<section class="container-fluid mt-5 py-3 bg-orange">
-			<h4 class="h4 text-bold text-center">Projects</h4>
+		<section class="container-fluid mt-5 py-3 bg-orange" id="projects">
+			<h4 class="h4 text-bold text-center my-3">Projects</h4>
 			<div class="container-fluid">
 				<div class="d-md-flex justify-content-md-center">
 					<!-- HTML Card -->
@@ -98,24 +98,80 @@
 		<!-- Projects Section End -->
 
 		<!-- Tools Section Start -->
-		<section class="d-flex d-md-block justify-content-center">
-			<div>
-				<div>
-					<img src="./images/logo-html5.png">
-					<img src="./images/logo-css3.png">
-					<img src="./images/logo-bootstrap.png">
-					<img src="./images/logo-javascript.png">
-					<img src="./images/logo-expressjs.png">
-					<img src="./images/logo-nodejs.png">
-					<img src="./images/logo-react.png">
-					<img src="./images/logo-postman.png">
-					<img src="./images/logo-mongodb.png">
-					<img src="./images/logo-heroku.png">
-					<img src="./images/logo-git.png">
-				</div>
-			</div>
+		<section class="container-fluid my-5" id="tools">
+			<h2 class="h2 text-center text-bold mb-3">Tools I Use</h2>
+			<section class="d-flex d-md-block justify-content-center">
+
+					<h4 class="h4 d-flex justify-content-center">Graphic Design</h4>
+					<div class="d-flex flex-column flex-md-row justify-content-md-center mb-3">
+						<img src="./images/logo-photoshop.png" class="icon m-3">
+						<img src="./images/logo-illustrator.png" class="icon m-3">
+						<img src="./images/logo-premiere-pro.png" class="icon m-3">
+						<img src="./images/logo-figma.png" class="icon m-3">
+					</div>
+
+					<h4 class="h4 d-flex justify-content-center ">Web Development and UI</h4>
+					<div class="d-flex flex-column flex-md-row justify-content-md-center">
+						<img src="./images/logo-html5.png" class="icon m-3">
+						<img src="./images/logo-css3.png" class="icon m-3">
+						<img src="./images/logo-bootstrap.png" class="icon m-3">
+						<img src="./images/logo-javascript.png" class="icon m-3">
+						<img src="./images/logo-mongodb.png" class="icon m-3">
+						<img src="./images/logo-expressjs.png" class="icon m-3">
+						<img src="./images/logo-react.png" class="icon m-3">
+						<img src="./images/logo-nodejs.png" class="icon m-3">
+					</div>
+			</section>
 		</section>
 		<!-- Tools Section End -->
+
+		<!-- Contact Section Start-->
+		<div class="container-fluid bg-orange" id="contact">
+			<div class="min-vh-100 p-5">
+				<h2 class="h2 text-bold text-light text-center">Contact Me</h2>
+
+				<div class="row mt-5">
+					<form class="col-12 offset-md-2 col-md-8 offset-xl-4 col-xl-4 bg-darkbrown p-3 rounded">
+
+					  <div class="form-group">
+					    <label class="text-light" for="full_name">Full Name</label>
+					    <input type="text" class="form-control" id="full_name" placeholder="Your Name">
+					  </div>
+
+					  <div class="form-group">
+					    <label class="text-light" for="email">Email address</label>
+					    <input type="email" class="form-control" id="email" placeholder="name@example.com">
+					  </div>
+
+					  <div class="form-group">
+					    <label class="text-light" for="contact">Contact Number</label>
+					    <input type="text" class="form-control" id="contact" placeholder="+63 912 345 6789">
+					  </div>
+
+					  <div class="form-group">
+					    <label class="text-light" for="concern">Concern</label>
+					    <select class="form-control" id="concern">
+					      <option> </option>
+					      <option>Quotation</option>
+					      <option>Appointment</option>
+					      <option>Follow-Up</option>
+					    </select>
+					  </div>
+
+					  <div class="form-group">
+					    <label class="text-light" for="message">Message</label>
+					    <textarea class="form-control" id="message" rows="7"></textarea>
+					  </div>
+
+					  <button type="button" class="btn bg-orange text-white text-bold" data-toggle="modal" data-target="#exampleModal">
+					  	Send Email
+					  </button>
+
+					</form>
+				</div>
+			</div>
+		</div>
+		<!-- Contact Section End-->
 
 		<!-- Bootstrap Script -->
 		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
